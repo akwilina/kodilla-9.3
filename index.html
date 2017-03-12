@@ -4,19 +4,42 @@
         <meta charset="UTF-8">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.1/jquery.fullPage.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+                integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+                crossorigin="anonymous">
+        </script>
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <title>jQuery2</title>
     </head>
     <body>
-        <div id="carousel">
-            <ul>
-                <li><img src="http://gapcreekbaptistchurch.org/wp-content/uploads/2016/11/pexels-photo-76931-400x400.jpeg"></li>
-                <li><img src="http://www.sevenoaksmums.com/wp-content/uploads/2017/02/pexels-photo-147550.jpeg"></li>
-                <li><img src="https://static1.squarespace.com/static/58082f1f8419c29466d322f1/t/581bf2ffe58c62436ef558bb/1478226692083/pexels-photo-141676.jpeg"></li>
-                <li><img src="http://d1nr5wevwcuzuv.cloudfront.net/product_photos/41814684/pexels-photo-62328_400sq.jpeg"></li>
-                <li><img src="http://finelife.pl/wp-content/uploads/2016/06/pexels-photo-70737-large-400x400.jpeg"></li>
-            </ul>
+        <div class="container">
+            <div class="carousel">
+                <div id="leftButton">
+                    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </div>
+                <div id="carousel">
+                    <ul>
+                        <li data-slide-index="0"><img src="http://gapcreekbaptistchurch.org/wp-content/uploads/2016/11/pexels-photo-76931-400x400.jpeg"></li>
+                        <li data-slide-index="1"><img src="http://www.sevenoaksmums.com/wp-content/uploads/2017/02/pexels-photo-147550.jpeg"></li>
+                        <li><img src="https://static1.squarespace.com/static/58082f1f8419c29466d322f1/t/581bf2ffe58c62436ef558bb/1478226692083/pexels-photo-141676.jpeg"></li>
+                        <li><img src="http://d1nr5wevwcuzuv.cloudfront.net/product_photos/41814684/pexels-photo-62328_400sq.jpeg"></li>
+                        <li><img src="http://finelife.pl/wp-content/uploads/2016/06/pexels-photo-70737-large-400x400.jpeg"></li>
+                    </ul>
+
+                </div>
+                <div id="rightButton">
+                    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="navigationControls">
+            </div>
         </div>
         <script type="text/javascript" src="js/scripts.js"></script>
     </body>

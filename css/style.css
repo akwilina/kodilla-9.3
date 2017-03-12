@@ -1,8 +1,17 @@
-#carousel {
+.container {
     width: 400px;
-    height: 400px;
-    border: dotted;
+    max-height: 500px;
     margin: 0 auto;
+    padding: 0;
+}
+
+#rightButton a,
+#leftButton a {
+    width: 30px;
+}
+
+#carousel {
+    border: dotted;
     overflow: hidden;
 }
 
@@ -15,4 +24,19 @@
 #carousel li {
     list-style: none;
     float: left;
+}
+
+.navigationControls {
+    height: 50px;
+    text-align: center;
+}
+
+.navigationDot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    border: solid black;
+    display: inline-block;
+    cursor: pointer;
 }
