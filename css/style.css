@@ -25,18 +25,3 @@
     list-style: none;
     float: left;
 }
-
-.navigationControls {
-    height: 50px;
-    text-align: center;
-}
-
-.navigationDot {
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    background-color: black;
-    border: solid black;
-    display: inline-block;
-    cursor: pointer;
-}

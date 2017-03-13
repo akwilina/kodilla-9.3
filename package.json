@@ -1,0 +1,28 @@
+{
+  "name": "zad9.3",
+  "version": "1.0.0",
+  "description": "kodilla task 9.3,\r jQuery carousel",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^3.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-google": "^0.7.1",
+    "eslint-plugin-dollar-sign": "^1.0.0",
+    "eslint-plugin-jquery": "^1.1.1"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint js/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akwilina/kodilla-9.3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akwilina/kodilla-9.3/issues"
+  },
+  "homepage": "https://github.com/akwilina/kodilla-9.3#readme"
+}
