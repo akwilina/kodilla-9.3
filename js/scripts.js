@@ -1,5 +1,6 @@
 $(document).ready(function(){
-	var carouselList = $("#carousel ul");
+	var carousel = $(".carousel");
+	var carouselList = $(".carousel ul");
 	var intervalID = setInterval(nextSlide, 3000);
 
 	function nextSlide (){
@@ -24,13 +25,13 @@ $(document).ready(function(){
 		carouselList.css({marginLeft:-400});
 	}
 
-	$("#rightButton").click(function() {
+	carousel.find(".rightButton").click(function() {
 		clearInterval(intervalID);
 		nextSlide();
 		intervalID = setInterval(nextSlide, 3000);
 	});
 
-	$("#leftButton").click(function() {
+	carousel.find(".leftButton").click(function() {
 		clearInterval(intervalID);
 		previousSlide();
 		intervalID = setInterval(previousSlide, 3000);
